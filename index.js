@@ -101,7 +101,7 @@ SwitchHub.prototype = {
             switch(i) {
                 case 0:
                     this.log.warn('---+--- ' + switchItem.name); break;
-                case this.multiswitch.length-1:
+                case this.switches.length-1:
                     this.log.warn('   +--- ' + switchItem.name); break;
                 default:
                     this.log.warn('   |--- ' + switchItem.name);
